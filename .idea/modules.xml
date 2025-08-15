@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula01 - Introdução/Aula01.iml" filepath="$PROJECT_DIR$/Aula01 - Introdução/Aula01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula02 - Operadores/Aula02.iml" filepath="$PROJECT_DIR$/Aula02 - Operadores/Aula02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04 - Loopings/Aula04.iml" filepath="$PROJECT_DIR$/Aula04 - Loopings/Aula04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula02 - Operadores/ExerciciosJava1.iml" filepath="$PROJECT_DIR$/Aula02 - Operadores/ExerciciosJava1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula03 - Condicionais/ExerciciosJava2.iml" filepath="$PROJECT_DIR$/Aula03 - Condicionais/ExerciciosJava2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula01 - Iniciando/FirstProject.iml" filepath="$PROJECT_DIR$/Aula01 - Iniciando/FirstProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Julya_Java.iml" filepath="$PROJECT_DIR$/.idea/Julya_Java.iml" />
+    </modules>
+  </component>
+</project>

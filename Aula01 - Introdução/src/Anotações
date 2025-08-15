@@ -1,0 +1,39 @@
+// - Comentário de linha
+/* */ - Comentário de bloco
+\n - Quebra uma linha (caractere de escape)
+========================================================================================================================
+VARIÁVEIS:
+    * TIPO PRIMITIVO:
+        byte, short, int, long
+        float, double
+        char
+        boolean
+
+    String NÃO É PRIMITIVA
+========================================================================================================================
+TIPOS DE MÁSCARAS:
+ * É necessário utilizar printf para aplicar as máscaras.
+Substituem o valor na frase por uma variável ou um valor. Também é possível realizar cálculos utilizando essa substituição.
+     * %d - inteiros - byte, short, int, long
+     * %f - reais - float, double
+     * %c - caractere - char
+     * %b - logico - boolean
+     * %s - String
+
+* Para limitar o tanto de casas que irão aparecer após a vírgula, coloque por exemplo: %.2f
+    (%.(numero de casas decimais + letra referente ao tipo de variável)
+========================================================================================================================
+ENTRADA DE DADOS PELO TECLADO -> SCANNER
+
+Scanner - Função que permite a entrada de dados pelo usuário
+    Scanner scanner = new Scanner (System.in); // Sintaxe
+
+    Para UTILIZAR o scanner, é necessário informar o nome da variável que receberá o dado enviado pelo teclado e depois
+chamar o scanner.
+    Para ENCERRAR o Scanner, é necessário inserir scanner.close(); , mas o mesmo será utilizado somente após o código
+completo. É a uúltima coisa a ser colocada e é considersdo boa prática.
+
+    É necessário colocar scanner.nextLine após um nextInt e antes da entrada de uma string, pois o 'Enter' após o número
+gera uma "string vazia" e para não ocorrer um "bug", é necessário colocar esta linha. ("limpar o buffer")
+
+
