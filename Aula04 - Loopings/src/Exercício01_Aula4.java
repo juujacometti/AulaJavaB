@@ -8,7 +8,7 @@ public class Exercício01_Aula4 {
         for (int i = 1; i < 11; i++){
             System.out.printf("\nTabuada do %d\n", i);
             for (int j = 1; j < 11; j++ ) {
-                System.out.printf("%d X %d = %d\n", j, j, (j * j));
+                System.out.printf("%d X %d = %d\n", i, j, (i * j));
             }
         }
 
@@ -19,7 +19,7 @@ public class Exercício01_Aula4 {
             int j = 1;
             System.out.printf("\nTabuada do %d\n", i);
             while (j < 11) {
-                System.out.printf("%d X %d = %d\n", j, j, (j * j));
+                System.out.printf("%d X %d = %d\n", i, j, (i * j));
                 j++;
             }
             i++;
