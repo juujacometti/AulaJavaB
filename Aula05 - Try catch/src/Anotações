@@ -1,0 +1,6 @@
+ERRO COMPILAÇÃO:
+    O código não consegue realizar a compilação, geralmente por conta de algum erro de sintaxe / escrita.
+
+ERRO DE EXECUÇÃO:
+    Necessita de um erro do usuário para acontecer.
+    * Nome do erro no terminal: InputMismatchException

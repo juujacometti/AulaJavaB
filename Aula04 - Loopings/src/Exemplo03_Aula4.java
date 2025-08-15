@@ -12,5 +12,16 @@ public class Exemplo03_Aula4 {
             acumulador += leia.nextInt();
             System.out.printf("Contador está em: %d\nAcumulador está em: %d\n", contador, acumulador);
         }
+
+// Looping do while
+
+        String valor;
+
+        do { // A primeira interação do laço é sempre executada
+            System.out.println("Diga-me algo: ");
+            valor = leia.nextLine();
+        } while (!valor.equalsIgnoreCase("algo"));
+
+        leia.close();
     }
 }

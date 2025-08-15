@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercício01_Aula4 {
     public static void main(String[] args) {
 
-// Faça a tabuada do 1 até a tabuada do 10, utilizando a seguinte formatação: '1X1 = 1' e assim por diante. Utilize o loop for.
+// Faça a tabuada do 1 até a tabuada do 10, utilizando a seguinte formatação: '1X1 = 1' e assim por diante. Utilize o loop 'for'.
 
         for (int i = 1; i < 11; i++){
             System.out.printf("\nTabuada do %d\n", i);
