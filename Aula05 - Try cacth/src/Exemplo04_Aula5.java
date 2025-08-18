@@ -23,7 +23,8 @@ public class Exemplo04_Aula5 {
             } catch (InputMismatchException e) {    // Caso a tentativa de erro, o código repetira o cacth quantas vezes forem necessárias
                 System.out.println("Você digitou caracteres inválidos! Digite apenas números.");
             }
-            leia.nextLine();    // Serve para evitar "bugs" da função 'nextInt' quando é digitado algo não esperado
+            // Serve para evitar "bugs" da função 'nextInt' quando é digitado algo não esperado
+            leia.nextLine();    // Para evitar esse tipo de problema, podemos utilizar a conversão de String para número
         }
 
         System.out.println("O número que você digitou foi: " + numero);
