@@ -1,0 +1,34 @@
+É possível adicionar mais de um 'catch' para um único 'try'.
+========================================================================================================================
+
+ERRO COMPILAÇÃO:
+    O código não consegue realizar a compilação, geralmente por conta de algum erro de sintaxe / escrita.
+
+ERRO DE EXECUÇÃO:
+    Necessita de um erro do usuário para acontecer.
+    * Nome do erro no terminal: InputMismatchException
+
+TIPOS DE ERRO:
+    * InputMismatchException -> Erro de Scanner, quando o usuário insere algo incorreto no Scanner
+    * NumberFormatException -> Erro de conversão de String para tipo número, mas a String não possui um tipo apropriado
+
+- É possível especificar o tipo de erro no corpo do código.
+- Caso não souber o tipo de erro que poderá dar, é importante utilizar apenas 'Exeption', para evitar outros tipos de
+  erros
+========================================================================================================================
+
+WRAPPER:
+- Os tipos primitivos apenas salvam valores, já os wrappers, são complexos, pois possuem valores e funções.
+- Exemplos de wrappers:
+    * Integer
+    * Double
+    * Character
+    * Boolean
+- Vale lembrar que os tipos primitivos iniciam com letra minúscula, já os wrappers, se iniciam com letra maiúscula.
+========================================================================================================================
+
+TRY / CATCH / FINALLY
+- TRY: Tentativa a ser realizada. Caso a tentativa gere um erro, o código irá para o 'catch'
+- CATCH: Será mostrado após o erro na tentativa.
+- FINALLY: Opcional. Sempre será executado, independente de erro ou acerto.
+
