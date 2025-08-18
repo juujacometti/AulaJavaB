@@ -17,13 +17,13 @@ public class Exemplo04_Aula5 {
                 numero = leia.nextInt();
                 if (numero < 20) {
                     System.out.println("O número que você digitou é menor que 20.");
-                    continue;   // Caso chegue nessa condigão, o 'continue' reinicia o laço
+                    continue;   // Caso chegue nessa condição, o 'continue' reinicia o laço
                 }
                 break;  // Esse 'break' só será acessado caso o usuário não gere uma tentativa de erro
             } catch (InputMismatchException e) {    // Caso a tentativa de erro, o código repetira o cacth quantas vezes forem necessárias
                 System.out.println("Você digitou caracteres inválidos! Digite apenas números.");
             }
-            leia.nextLine();
+            leia.nextLine();    // Serve para evitar "bugs" da função 'nextInt' quando é digitado algo não esperado
         }
 
         System.out.println("O número que você digitou foi: " + numero);
