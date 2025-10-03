@@ -1,0 +1,16 @@
+=== CLASSE
+* Abstrai um conjunto de objetos com características semelhantes.
+* Molde para a construção de um objeto (instância).
+
+=== OBJETO (INSTÂNCIA)
+* Aplicação do molde.
+* Contrução realizada a partir dele.
+* Os objetos de uma mesma classe não necessáriamente precisam ser completamente iguais, porem possuem as mesmas propriedades
+  e comportamentos.
+
+=== CONSTRUTOR
+* Construtor padrão (sem parâmetros) existe em toda classe.
+
+
+=== VOID
+* São métodos que não possuem retorno.
