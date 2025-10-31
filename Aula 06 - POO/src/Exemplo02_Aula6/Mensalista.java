@@ -21,7 +21,7 @@ public class Mensalista extends Colaborador {
 
     @Override
     public String toString() {
-        return "Mensalista{" +
+        return "teste.Mensalista{" +
                 "edv=" + edv +
                 ", nome='" + nome + '\'' +
                 ", cargo='" + cargo + '\'' +

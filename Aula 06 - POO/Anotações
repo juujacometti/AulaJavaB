@@ -19,4 +19,5 @@
 === HERANÇA
 Serve para evitar a repetição de código e incentiva o reuso do mesmo bloco de código.
 
-Quando estivermos dentro da classe pai e precisar dentro da classe filho, utilizamos a palavra reservada 'super'
+Quando estivermos dentro da classe pai e precisar dentro da classe filho, utilizamos a palavra reservada 'super'.
+
