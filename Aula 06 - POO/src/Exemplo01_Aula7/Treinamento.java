@@ -14,6 +14,8 @@ public class Treinamento {
         this.instrutor = instrutor;
     }
 
+    public Treinamento(){}    // Construtor sem parâmetros
+
     @Override
     public String toString() {
         return String.format("\n\nO treinamento de %s está com o preço de R$%.2f e ele %s exclusivo para gestores e mistrado pelo treinador %s.", this.nome, this.preco, this.exclusivoParaGestores ? "é" : "não é", this.instrutor);

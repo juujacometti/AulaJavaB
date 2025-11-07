@@ -39,6 +39,7 @@ public class Main {
 
         Instrutor instrutor = new Instrutor("Francis");
         Treinamento treinamento = new Treinamento("Power BI", 4000, true, instrutor);
-        System.out.println("\n" + treinamento);
+        Treinamento treinamento1 = new Treinamento();
+        System.out.println("\n" + treinamento1);
     }
 }
