@@ -10,8 +10,6 @@ public class Main {
             case MEDIA -> System.out.println("Chamado com prioridade média, resolver assim que possível.");
             case ALTA -> System.out.println("Chamado com prioridade alta, resolver o quanto antes.");
             case URGENTE -> System.out.println("Chamado urgente, resolver agora.");
-
-
         }
 
     }

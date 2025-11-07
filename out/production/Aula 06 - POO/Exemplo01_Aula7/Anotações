@@ -1,0 +1,13 @@
+=== Variáveis dinâmicas
+    Tem seu valor alterado de acordo com o objeto instanciado.
+
+=== Variáveis estáticas
+    Quando uma variável possuir o método 'static', ou seja, ela pertence a classe em si, e não a uma instância
+específica.
+    Isso faz com que a variável sempre use o mesmo espaço de memória alocado.
+
+    É possível alterar o valor de uma variável estática realizando a alteração dentro da classe, porém isso servirá para
+todas as instâncias daquela classe. É possível impedir esse fator adicionando a palavra 'final' após o 'static'.
+
+=== Constantes
+    Geralmente são escritas em letra maiúscula.
