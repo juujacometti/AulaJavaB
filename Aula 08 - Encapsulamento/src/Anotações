@@ -1,0 +1,10 @@
+=== ENCAPSULAMENTO
+    * Private - Nível de visibilidade apenas na mesma classe. Camada mais protegida;
+    * Package - Nível de visibilidade apenas na mesma pasta. Não possui um modificador claro, apenas declaramos o tipo
+da variável;
+    * Protected - Nível de visibilidade em pacotes diferentes, desde que tenha um nível de herença entre eles;
+    * Public - Visível em todos os lugares, todos podem acessar. Camada menos protegida;
+
+    Esses modificadores de acesso devem vir antes antes da classe e do nome, além disso eles são acumulativos, podendo
+ter mais de um em um único atributo.
+========================================================================================================================
